@@ -43,7 +43,7 @@ const PodcastDetails: React.FC<PodcastDetailsProps> = ({ params }) => {
           <h2 className="text-16 font-bold text-white-1">{podcast?.views}</h2>
         </figure>
       </header>
-      {/* @ts-ignore */}
+
       <PodcastDetailPlayer
         isOwner={isOwner}
         podcastId={podcast._id}
